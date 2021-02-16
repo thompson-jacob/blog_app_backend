@@ -1,4 +1,5 @@
 <template>
+
   <div class="home">
     <h1> All Posts </h1>
     <div v-for="post in posts" v-bind:key="post.id">
